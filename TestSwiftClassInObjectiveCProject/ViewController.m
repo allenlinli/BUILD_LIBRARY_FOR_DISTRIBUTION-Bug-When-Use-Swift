@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <TestSwiftClassInObjectiveCProject-Swift.h>
 
 @interface ViewController ()
-
+@property (strong, nonatomic) TheViewController *viewController;
 @end
 
 @implementation ViewController
