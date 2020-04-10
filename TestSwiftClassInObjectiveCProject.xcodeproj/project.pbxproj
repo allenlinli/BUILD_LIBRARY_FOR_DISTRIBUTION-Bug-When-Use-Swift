@@ -30,7 +30,6 @@
 		FFB028E324404F370063234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFB028E524404F370063234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB028E624404F370063234B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FFB028ED24404F8C0063234B /* TestSwiftClassInObjectiveCProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSwiftClassInObjectiveCProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		FFB028EE24404F8C0063234B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +75,6 @@
 				FFB028E224404F370063234B /* LaunchScreen.storyboard */,
 				FFB028E524404F370063234B /* Info.plist */,
 				FFB028E624404F370063234B /* main.m */,
-				FFB028ED24404F8C0063234B /* TestSwiftClassInObjectiveCProject-Bridging-Header.h */,
 			);
 			path = TestSwiftClassInObjectiveCProject;
 			sourceTree = "<group>";
@@ -307,7 +305,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ikala.TestSwiftClassInObjectiveCProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestSwiftClassInObjectiveCProject/TestSwiftClassInObjectiveCProject-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +327,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ikala.TestSwiftClassInObjectiveCProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestSwiftClassInObjectiveCProject/TestSwiftClassInObjectiveCProject-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
